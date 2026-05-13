@@ -4,8 +4,8 @@ const cors = require('cors');
 require('dotenv').config();
 
 // Import Routes
-const reviewRoutes = require('./routes/reviewRoutes');
-const contactRoutes = require('./routes/contactRoutes');
+const reviewRoutes = require('./Routes/reviewRoutes');
+const contactRoutes = require('./Routes/contactRoutes');
 
 const app = express();
 
